@@ -1,0 +1,10 @@
+{
+  "favicon": {
+    "path": "favicon.ico",
+    "maxAge": 86400000
+  },
+  "public": {
+    "path": "../ui/public",
+    "maxAge": 60000
+  }
+}
