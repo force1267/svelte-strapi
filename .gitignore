@@ -92,7 +92,7 @@ lcov.info
 pids
 logs
 results
-node_modules
+node_modules/*
 .node_history
 
 
@@ -110,3 +110,6 @@ coverage
 exports
 .cache
 build
+
+!node_modules/strapi-admin
+!node_modules/strapi-plugin*
