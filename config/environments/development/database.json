@@ -4,12 +4,8 @@
     "default": {
       "connector": "strapi-hook-bookshelf",
       "settings": {
-        "client": "postgres",
-        "database": "hayat",
-        "host": "127.0.0.1",
-        "port": 5432,
-        "username": "postgres",
-        "password": "postgres"
+        "client": "sqlite",
+        "filename": ".tmp/data.db"
       },
       "options": {}
     }
